@@ -1,0 +1,41 @@
+cnn_clean_lr0.0003_s0
+  val 0.7468 (ep 30)  test 0.7446
+cnn_clean_lr0.001_s0
+  val 0.7964 (ep 20)  test 0.7949
+cnn_clean_lr0.003_s0
+  val 0.7310 (ep 12)  test 0.7249
+CNN LR sweep {0.0003: 0.7468, 0.001: 0.7964, 0.003: 0.731} -> selected 0.001
+mlp_clean_lr0.001_s0
+  val 0.5576 (ep 26)  test 0.5416
+mlp_clean_lr0.001_s1
+  val 0.5478 (ep 29)  test 0.5355
+mlp_clean_lr0.001_s2
+  val 0.5538 (ep 27)  test 0.5476
+cnn_clean_lr0.001_s1
+  val 0.7928 (ep 26)  test 0.7883
+cnn_clean_lr0.001_s2
+  val 0.7932 (ep 22)  test 0.7879
+mlp_permuted_lr0.001_s0
+  val 0.5520 (ep 20)  test 0.5376
+mlp_permuted_lr0.001_s1
+  val 0.5488 (ep 27)  test 0.5413
+mlp_permuted_lr0.001_s2
+  val 0.5554 (ep 26)  test 0.5452
+cnn_permuted_lr0.001_s0
+  val 0.4956 (ep 19)  test 0.4922
+cnn_permuted_lr0.001_s1
+  val 0.4954 (ep 14)  test 0.4887
+cnn_permuted_lr0.001_s2
+  val 0.5016 (ep 13)  test 0.4998
+mlp_block4_lr0.001_s0
+  val 0.3482 (ep 30)  test 0.3530
+cnn_block4_lr0.001_s0
+  val 0.5520 (ep 30)  test 0.5380
+mlp_block8_lr0.001_s0
+  val 0.3852 (ep 29)  test 0.3779
+cnn_block8_lr0.001_s0
+  val 0.6216 (ep 28)  test 0.6151
+mlp_block16_lr0.001_s0
+  val 0.4712 (ep 26)  test 0.4596
+cnn_block16_lr0.001_s0
+  val 0.7236 (ep 27)  test 0.7108

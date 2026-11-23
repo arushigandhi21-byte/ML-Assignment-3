@@ -1,0 +1,34 @@
+representation: dae_d1024 {'name': (), 'f_train': (45000, 1024), 'y_train': (45000,), 'f_val': (5000, 1024), 'y_val': (5000,), 'f_test': (10000, 1024), 'y_test': (10000,), 'svm_idx': (10000,)}
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Done   4 out of  15 | elapsed:  4.7min remaining: 12.9min
+[Parallel(n_jobs=8)]: Done   8 out of  15 | elapsed:  7.0min remaining:  6.1min
+[Parallel(n_jobs=8)]: Done  12 out of  15 | elapsed:  7.3min remaining:  1.8min
+[Parallel(n_jobs=8)]: Done  15 out of  15 | elapsed: 32.7min finished
+linear  C=0.01   train 0.5921 val 0.4314 SV 0.869
+linear  C=0.1    train 0.6672 val 0.4252 SV 0.839
+linear  C=1      train 0.7801 val 0.4222 SV 0.822
+linear  C=10     train 0.9087 val 0.4002 SV 0.809
+linear  C=100    train 0.9830 val 0.3966 SV 0.799
+rbf     C=0.01   train 0.3206 val 0.3036 SV 1.000
+rbf     C=0.1    train 0.4482 val 0.3960 SV 0.989
+rbf     C=1      train 0.8130 val 0.5020 SV 0.954
+rbf     C=10     train 0.9952 val 0.5078 SV 0.963
+rbf     C=100    train 1.0000 val 0.5030 SV 0.961
+poly3   C=0.01   train 0.4621 val 0.4062 SV 0.986
+poly3   C=0.1    train 0.7201 val 0.4868 SV 0.939
+poly3   C=1      train 0.9553 val 0.4936 SV 0.915
+poly3   C=10     train 0.9997 val 0.4740 SV 0.910
+poly3   C=100    train 1.0000 val 0.4756 SV 0.909
+selected rbf 10 test acc 0.5116
+pair 3 5 {'multiclass_test_confusions': 416, 'multiclass_pair_confusion_rate': 0.208, 'binary_test_acc': 0.6395, 'binary_sv_frac': 0.9335, 'binary_frac_test_within_margin': 0.9185, 'centroid_distance': 3.488816261291504, 'rms_within_class_spread': 33.134090423583984, 'separation_ratio': 0.10529385948703318}
+pair 1 9 {'multiclass_test_confusions': 327, 'multiclass_pair_confusion_rate': 0.1635, 'binary_test_acc': 0.7645, 'binary_sv_frac': 0.8725, 'binary_frac_test_within_margin': 0.8665, 'centroid_distance': 6.322404384613037, 'rms_within_class_spread': 35.217742919921875, 'separation_ratio': 0.17952327038643345}
+pair 2 4 {'multiclass_test_confusions': 295, 'multiclass_pair_confusion_rate': 0.1475, 'binary_test_acc': 0.7045, 'binary_sv_frac': 0.855, 'binary_frac_test_within_margin': 0.835, 'centroid_distance': 3.4796559810638428, 'rms_within_class_spread': 27.575519561767578, 'separation_ratio': 0.12618641593568578}
+cluster {'method': 'kmeans', 'k': 5, 'val_nmi': 0.09038078656001758, 'val_ari': 0.05439755588179102}
+cluster {'method': 'kmeans', 'k': 10, 'val_nmi': 0.11801640600870587, 'val_ari': 0.06365329945485983}
+cluster {'method': 'kmeans', 'k': 15, 'val_nmi': 0.12032654306282033, 'val_ari': 0.05676680986337381}
+cluster {'method': 'kmeans', 'k': 20, 'val_nmi': 0.12230778555760612, 'val_ari': 0.04978070395246093}
+cluster {'method': 'gmm', 'k': 5, 'val_nmi': 0.08913857045792742, 'val_ari': 0.05547806362806623}
+cluster {'method': 'gmm', 'k': 10, 'val_nmi': 0.11132218584016097, 'val_ari': 0.06090857470690539}
+cluster {'method': 'gmm', 'k': 15, 'val_nmi': 0.10827660426061848, 'val_ari': 0.048489649015609704}
+cluster {'method': 'gmm', 'k': 20, 'val_nmi': 0.11338542727932027, 'val_ari': 0.04573574664697563}
+clustering test ARI 0.050071973467887866 NMI 0.11764154437556253

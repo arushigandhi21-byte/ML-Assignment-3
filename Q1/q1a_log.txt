@@ -1,0 +1,40 @@
+shallow_wide_original_lr0.0003
+  best val 0.5548
+shallow_wide_original_lr0.001
+  best val 0.5576
+shallow_wide_original_lr0.003
+  best val 0.5462
+shallow_wide_permuted_lr0.0003
+  best val 0.5544
+shallow_wide_permuted_lr0.001
+  best val 0.5520
+shallow_wide_permuted_lr0.003
+  best val 0.5472
+deep_narrow_original_lr0.0003
+  best val 0.5530
+deep_narrow_original_lr0.001
+  best val 0.5468
+deep_narrow_original_lr0.003
+  best val 0.5422
+deep_narrow_permuted_lr0.0003
+  best val 0.5530
+deep_narrow_permuted_lr0.001
+  best val 0.5418
+deep_narrow_permuted_lr0.003
+  best val 0.5454
+shallow_wide original lr=0.001 seed=0: val 0.5576 test 0.5416
+shallow_wide original lr=0.001 seed=1: val 0.5542 test 0.5416
+shallow_wide original lr=0.001 seed=2: val 0.5500 test 0.5422
+shallow_wide permuted lr=0.0003 seed=0: val 0.5516 test 0.5466
+shallow_wide permuted lr=0.0003 seed=1: val 0.5626 test 0.5512
+shallow_wide permuted lr=0.0003 seed=2: val 0.5548 test 0.5408
+deep_narrow original lr=0.0003 seed=0: val 0.5486 test 0.5471
+deep_narrow original lr=0.0003 seed=1: val 0.5532 test 0.5445
+deep_narrow original lr=0.0003 seed=2: val 0.5604 test 0.5497
+deep_narrow permuted lr=0.0003 seed=0: val 0.5486 test 0.5453
+deep_narrow permuted lr=0.0003 seed=1: val 0.5536 test 0.5422
+deep_narrow permuted lr=0.0003 seed=2: val 0.5510 test 0.5509
+shallow_wide_original        params=1,578,506 lr=0.001 test=54.18 ± 0.03
+shallow_wide_permuted        params=1,578,506 lr=0.0003 test=54.62 ± 0.43
+deep_narrow_original         params=1,570,460 lr=0.0003 test=54.71 ± 0.21
+deep_narrow_permuted         params=1,570,460 lr=0.0003 test=54.61 ± 0.36

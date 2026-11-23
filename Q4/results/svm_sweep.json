@@ -1,0 +1,122 @@
+[
+ {
+  "kernel": "linear",
+  "C": 0.01,
+  "train_acc": 0.5921,
+  "val_acc": 0.4314,
+  "sv_frac": 0.8689,
+  "fit_seconds": 126.16305780410767
+ },
+ {
+  "kernel": "linear",
+  "C": 0.1,
+  "train_acc": 0.6672,
+  "val_acc": 0.4252,
+  "sv_frac": 0.8387,
+  "fit_seconds": 151.38397479057312
+ },
+ {
+  "kernel": "linear",
+  "C": 1,
+  "train_acc": 0.7801,
+  "val_acc": 0.4222,
+  "sv_frac": 0.8215,
+  "fit_seconds": 305.7631239891052
+ },
+ {
+  "kernel": "linear",
+  "C": 10,
+  "train_acc": 0.9087,
+  "val_acc": 0.4002,
+  "sv_frac": 0.8087,
+  "fit_seconds": 792.5255017280579
+ },
+ {
+  "kernel": "linear",
+  "C": 100,
+  "train_acc": 0.983,
+  "val_acc": 0.3966,
+  "sv_frac": 0.7989,
+  "fit_seconds": 1957.0036420822144
+ },
+ {
+  "kernel": "rbf",
+  "C": 0.01,
+  "train_acc": 0.3206,
+  "val_acc": 0.3036,
+  "sv_frac": 1.0,
+  "fit_seconds": 303.7722268104553
+ },
+ {
+  "kernel": "rbf",
+  "C": 0.1,
+  "train_acc": 0.4482,
+  "val_acc": 0.396,
+  "sv_frac": 0.9886,
+  "fit_seconds": 279.1311070919037
+ },
+ {
+  "kernel": "rbf",
+  "C": 1,
+  "train_acc": 0.813,
+  "val_acc": 0.502,
+  "sv_frac": 0.9536,
+  "fit_seconds": 256.63732409477234
+ },
+ {
+  "kernel": "rbf",
+  "C": 10,
+  "train_acc": 0.9952,
+  "val_acc": 0.5078,
+  "sv_frac": 0.9626,
+  "fit_seconds": 270.29083609580994
+ },
+ {
+  "kernel": "rbf",
+  "C": 100,
+  "train_acc": 1.0,
+  "val_acc": 0.503,
+  "sv_frac": 0.961,
+  "fit_seconds": 266.8447308540344
+ },
+ {
+  "kernel": "poly3",
+  "C": 0.01,
+  "train_acc": 0.4621,
+  "val_acc": 0.4062,
+  "sv_frac": 0.9858,
+  "fit_seconds": 164.59695601463318
+ },
+ {
+  "kernel": "poly3",
+  "C": 0.1,
+  "train_acc": 0.7201,
+  "val_acc": 0.4868,
+  "sv_frac": 0.939,
+  "fit_seconds": 139.7396159172058
+ },
+ {
+  "kernel": "poly3",
+  "C": 1,
+  "train_acc": 0.9553,
+  "val_acc": 0.4936,
+  "sv_frac": 0.9151,
+  "fit_seconds": 129.0826542377472
+ },
+ {
+  "kernel": "poly3",
+  "C": 10,
+  "train_acc": 0.9997,
+  "val_acc": 0.474,
+  "sv_frac": 0.9102,
+  "fit_seconds": 129.58443188667297
+ },
+ {
+  "kernel": "poly3",
+  "C": 100,
+  "train_acc": 1.0,
+  "val_acc": 0.4756,
+  "sv_frac": 0.9091,
+  "fit_seconds": 76.2846930027008
+ }
+]

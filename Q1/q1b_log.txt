@@ -1,0 +1,4 @@
+noise0 params 4206602 flipped 0
+{"noise_rate": 0.0, "hidden": [1024, 1024], "params": 4206602, "best_val_epoch": 88, "best_val_acc": 0.5588, "test_acc_best_val_ckpt": 0.553, "test_acc_final": 0.5528}
+noise40 params 4206602 flipped 18000
+{"noise_rate": 0.4, "hidden": [1024, 1024], "params": 4206602, "best_val_epoch": 6, "best_val_acc": 0.4676, "test_acc_best_val_ckpt": 0.4561, "test_acc_final": 0.3507}

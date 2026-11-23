@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.DS_Store
+data/cifar10.npz
+data/hf/
+data/cifar-10-*
+*.pt
+*_test_probs.npy
+Q4/results/features.npz
+report/
+ml_assignment_3_paragraph_removed.pdf
+STATUS.md
+RULES.md

@@ -1,0 +1,157 @@
+ae_d16 params 398675
+  ep  1 train 0.03454 val 0.02358
+  ep  2 train 0.02049 val 0.01836
+  ep  3 train 0.01800 val 0.01766
+  ep  4 train 0.01765 val 0.01777
+  ep  5 train 0.01744 val 0.01737
+  ep  6 train 0.01728 val 0.01718
+  ep  7 train 0.01719 val 0.01719
+  ep  8 train 0.01703 val 0.01725
+  ep  9 train 0.01696 val 0.01698
+  ep 10 train 0.01687 val 0.01689
+  ep 11 train 0.01682 val 0.01697
+  ep 12 train 0.01673 val 0.01691
+  ep 13 train 0.01665 val 0.01684
+  ep 14 train 0.01662 val 0.01666
+  ep 15 train 0.01657 val 0.01660
+  ep 16 train 0.01648 val 0.01657
+  ep 17 train 0.01647 val 0.01656
+  ep 18 train 0.01643 val 0.01659
+  ep 19 train 0.01634 val 0.01647
+  ep 20 train 0.01634 val 0.01645
+  ep 21 train 0.01627 val 0.01645
+  ep 22 train 0.01624 val 0.01642
+  ep 23 train 0.01618 val 0.01641
+  ep 24 train 0.01615 val 0.01632
+  ep 25 train 0.01613 val 0.01636
+  ep 26 train 0.01610 val 0.01629
+  ep 27 train 0.01606 val 0.01628
+  ep 28 train 0.01604 val 0.01630
+  ep 29 train 0.01598 val 0.01627
+  ep 30 train 0.01597 val 0.01622
+ae_d128 params 857539
+  ep  1 train 0.03171 val 0.01987
+  ep  2 train 0.01554 val 0.01306
+  ep  3 train 0.01230 val 0.01125
+  ep  4 train 0.01092 val 0.01056
+  ep  5 train 0.01007 val 0.00965
+  ep  6 train 0.00927 val 0.00899
+  ep  7 train 0.00874 val 0.00871
+  ep  8 train 0.00813 val 0.00777
+  ep  9 train 0.00761 val 0.00746
+  ep 10 train 0.00715 val 0.00705
+  ep 11 train 0.00683 val 0.00681
+  ep 12 train 0.00659 val 0.00638
+  ep 13 train 0.00640 val 0.00624
+  ep 14 train 0.00621 val 0.00653
+  ep 15 train 0.00607 val 0.00599
+  ep 16 train 0.00586 val 0.00575
+  ep 17 train 0.00576 val 0.00561
+  ep 18 train 0.00565 val 0.00554
+  ep 19 train 0.00554 val 0.00564
+  ep 20 train 0.00545 val 0.00530
+  ep 21 train 0.00537 val 0.00530
+  ep 22 train 0.00531 val 0.00534
+  ep 23 train 0.00524 val 0.00528
+  ep 24 train 0.00521 val 0.00508
+  ep 25 train 0.00518 val 0.00510
+  ep 26 train 0.00510 val 0.00509
+  ep 27 train 0.00508 val 0.00527
+  ep 28 train 0.00505 val 0.00500
+  ep 29 train 0.00500 val 0.00497
+  ep 30 train 0.00500 val 0.00503
+ae_d1024 params 4528451
+  ep  1 train 0.03542 val 0.01932
+  ep  2 train 0.01615 val 0.01331
+  ep  3 train 0.01232 val 0.01214
+  ep  4 train 0.01050 val 0.00967
+  ep  5 train 0.00934 val 0.00868
+  ep  6 train 0.00832 val 0.00780
+  ep  7 train 0.00747 val 0.00757
+  ep  8 train 0.00681 val 0.00707
+  ep  9 train 0.00637 val 0.00601
+  ep 10 train 0.00591 val 0.00600
+  ep 11 train 0.00557 val 0.00555
+  ep 12 train 0.00532 val 0.00532
+  ep 13 train 0.00506 val 0.00505
+  ep 14 train 0.00482 val 0.00479
+  ep 15 train 0.00467 val 0.00452
+  ep 16 train 0.00447 val 0.00436
+  ep 17 train 0.00431 val 0.00432
+  ep 18 train 0.00416 val 0.00421
+  ep 19 train 0.00405 val 0.00385
+  ep 20 train 0.00387 val 0.00440
+  ep 21 train 0.00380 val 0.00378
+  ep 22 train 0.00369 val 0.00369
+  ep 23 train 0.00357 val 0.00381
+  ep 24 train 0.00348 val 0.00331
+  ep 25 train 0.00342 val 0.00405
+  ep 26 train 0.00332 val 0.00330
+  ep 27 train 0.00321 val 0.00313
+  ep 28 train 0.00318 val 0.00335
+  ep 29 train 0.00306 val 0.00322
+  ep 30 train 0.00297 val 0.00302
+{
+ "table": {
+  "16": {
+   "params": 398675,
+   "val_mse": 0.016224620310465496,
+   "best_epoch": 30
+  },
+  "128": {
+   "params": 857539,
+   "val_mse": 0.004970925585428874,
+   "best_epoch": 29
+  },
+  "1024": {
+   "params": 4528451,
+   "val_mse": 0.0030237197240193686,
+   "best_epoch": 30
+  }
+ },
+ "selected_d": 1024,
+ "selected_test_mse": 0.003022476927439372
+}
+dae_d1024 params 4528451
+  ep  1 train 0.03363 val 0.01879
+  ep  2 train 0.01580 val 0.01294
+  ep  3 train 0.01188 val 0.01102
+  ep  4 train 0.01015 val 0.00955
+  ep  5 train 0.00890 val 0.00831
+  ep  6 train 0.00802 val 0.00756
+  ep  7 train 0.00734 val 0.00745
+  ep  8 train 0.00682 val 0.00654
+  ep  9 train 0.00635 val 0.00620
+  ep 10 train 0.00600 val 0.00579
+  ep 11 train 0.00569 val 0.00553
+  ep 12 train 0.00548 val 0.00527
+  ep 13 train 0.00523 val 0.00518
+  ep 14 train 0.00508 val 0.00498
+  ep 15 train 0.00493 val 0.00489
+  ep 16 train 0.00483 val 0.00466
+  ep 17 train 0.00466 val 0.00462
+  ep 18 train 0.00453 val 0.00450
+  ep 19 train 0.00441 val 0.00437
+  ep 20 train 0.00433 val 0.00431
+  ep 21 train 0.00424 val 0.00422
+  ep 22 train 0.00415 val 0.00412
+  ep 23 train 0.00407 val 0.00396
+  ep 24 train 0.00401 val 0.00394
+  ep 25 train 0.00392 val 0.00397
+  ep 26 train 0.00386 val 0.00405
+  ep 27 train 0.00383 val 0.00382
+  ep 28 train 0.00374 val 0.00367
+  ep 29 train 0.00372 val 0.00368
+  ep 30 train 0.00363 val 0.00358
+clean                  acc 0.7949  mse_to_clean 0.00000
+noisy                  acc 0.3346  mse_to_clean 0.00930
+ae_recon_of_noisy      acc 0.5791  mse_to_clean 0.00412
+dae_recon_of_noisy     acc 0.5774  mse_to_clean 0.00358
+ae_recon_of_clean      acc 0.6070  mse_to_clean 0.00302
+dae_recon_of_clean     acc 0.5847  mse_to_clean 0.00315
+ae_d16         mse 0.01632 probe test 0.3360 knn test 0.4239
+ae_d128        mse 0.00498 probe test 0.4021 knn test 0.4728
+ae_d1024       mse 0.00302 probe test 0.4725 knn test 0.5019
+dae_d1024      mse 0.00315 probe test 0.4824 knn test 0.5068
+random_d1024   mse 0.06416 probe test 0.4703 knn test 0.4210
+raw pixels probe 0.40450000762939453 knn 0.4316
